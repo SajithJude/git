@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">    <!-- Font Awesome -->
+        <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Bootstrap CDN Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.1.1/css/bootstrap.min.css">
+
+    <!-- Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=1.1" />
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- owlCarousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
+
+    <title>Downlaods page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"> <img class="header-img" src="./img/website-logo.png"
+                    alt="logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="about-me.html">About</a>
+                    <a class="nav-link" href="services.html">Services</a>
+                    <a class="nav-link" href="blog.html">Blog</a>
+                    <a class="nav-link" href="https://academy.susieashfield.com/" target="_blank">Academy <i class="fas fa-external-link-alt fa-xs"></i></a>
+                    <a class="nav-link nav-contact-btn" href="contact-me.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="blog">
+            <div class="blog-header">
+                <h3 class="page-heading">Blog</h3>
+                <div class="row">
+                    <div class="offset-lg-4 offset-md-4 col-12 col-sm-12 col-md-4 col-lg-4 blog-input-div">
+                        <input type="search" placeholder="Search Here" class="input_search" />
+                        <img src="img/searchIcon.png"
+                            class="searchImg" />
+                    </div>
+                </div>
+                <div class="row blog-buttons">
+                    <a id="blog-button-1 " href="blog.html" class="">Articles</a>
+                    <a id="blog-button-2" href="videos.html" class="">Videos</a>
+                    <!-- <a id="blog-button-3" href="#" class="">News</i></a> -->
+                    <a id="blog-button-4 active" href="downloads.html" class="">Downloads</a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="news">
+            <div class="videos-main-div">
+                <div class="row">
+                    <h3 class="col-12 downlaods-section-heading">Featured Downloads</h3>
+                </div>
+                <div class="row featured-downloads mb-5 mt-5">
+
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-left">
+                            <img class="featured-download-img" src="img/promotional_book_img.png">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 featured-download-heading-div">
+                            <div class="featured-download-date mb-3">22-12-2023</div>
+                            <h3 class="featured-download-heading mb-4">9 Insider Secrets to Becoming a Better Presenter and something else....</h3>
+                            <button class="btn btn-lg btn-featured-download"  data-toggle="modal" data-target="#downloads-modal">Download for Free</button>
+                        </div>
+                </div>
+                <div class="row  text-center text-md-left text-lg-left">
+                    <h3 class="col-12 downloads-section-heading mt-5 mb-4">More Videos</h3>
+                </div>
+                <div class="row more-downloads-div justify-content-between">
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+                        <div class="downloads-wrapper">
+                            <div class="downloads-details">
+<div class="downloads-date">22-12-2022</div>
+<div class="downloads-description">Introduction to the public speaking and something more.....</div>
+</div>
+<div class="downloads-div">
+    <img class="downloads-img" src="img/promotional_book_img.png">
+</div>
+
+    <button class="btn btn-sm btn-more-downlaods">Download</button>
+                        </div>    
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+                        <div class="downloads-wrapper">
+                            <div class="downloads-details">
+<div class="downloads-date">22-12-2022</div>
+<div class="downloads-description">Introduction to the public speaking and something more.....</div>
+</div>
+<div class="downloads-div">
+    <img class="downloads-img" src="img/promotional_book_img.png">
+</div>
+
+    <button class="btn btn-sm btn-more-downlaods">Download</button>
+                        </div>    
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+                        <div class="downloads-wrapper">
+                            <div class="downloads-details">
+<div class="downloads-date">22-12-2022</div>
+<div class="downloads-description">Introduction to the public speaking and something more.....</div>
+</div>
+<div class="downloads-div">
+    <img class="downloads-img" src="img/promotional_book_img.png">
+</div>
+
+    <button class="btn btn-sm btn-more-downlaods">Download</button>
+                        </div>    
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+                        <div class="downloads-wrapper">
+                            <div class="downloads-details">
+<div class="downloads-date">22-12-2022</div>
+<div class="downloads-description">Introduction to the public speaking and something more.....</div>
+</div>
+<div class="downloads-div">
+    <img class="downloads-img" src="img/promotional_book_img.png">
+</div>
+
+    <button class="btn btn-sm btn-more-downlaods">Download</button>
+                        </div>    
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+                        <div class="downloads-wrapper">
+                            <div class="downloads-details">
+<div class="downloads-date">22-12-2022</div>
+<div class="downloads-description">Introduction to the public speaking and something more.....</div>
+</div>
+<div class="downloads-div">
+    <img class="downloads-img" src="img/promotional_book_img.png">
+</div>
+
+    <button class="btn btn-sm btn-more-downlaods">Download</button>
+                        </div>    
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+                        <div class="downloads-wrapper">
+                            <div class="downloads-details">
+<div class="downloads-date">22-12-2022</div>
+<div class="downloads-description">Introduction to the public speaking and something more.....</div>
+</div>
+<div class="downloads-div">
+    <img class="downloads-img" src="img/promotional_book_img.png">
+</div>
+
+    <button class="btn btn-sm btn-more-downlaods">Download</button>
+                        </div>    
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+                        <div class="downloads-wrapper">
+                            <div class="downloads-details">
+<div class="downloads-date">22-12-2022</div>
+<div class="downloads-description">Introduction to the public speaking and something more.....</div>
+</div>
+<div class="downloads-div">
+    <img class="downloads-img" src="img/promotional_book_img.png">
+</div>
+
+    <button class="btn btn-sm btn-more-downlaods">Download</button>
+                        </div>    
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+                        <div class="downloads-wrapper">
+                            <div class="downloads-details">
+<div class="downloads-date">22-12-2022</div>
+<div class="downloads-description">Introduction to the public speaking and something more.....</div>
+</div>
+<div class="downloads-div">
+    <img class="downloads-img" src="img/promotional_book_img.png">
+</div>
+
+    <button class="btn btn-sm btn-more-downlaods">Download</button>
+                        </div>    
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+                        <div class="downloads-wrapper">
+                            <div class="downloads-details">
+<div class="downloads-date">22-12-2022</div>
+<div class="downloads-description">Introduction to the public speaking and something more.....</div>
+</div>
+<div class="downloads-div">
+    <img class="downloads-img" src="img/promotional_book_img.png">
+</div>
+
+    <button class="btn btn-sm btn-more-downlaods">Download</button>
+                        </div>    
+                    </div> 
+                    
+                    
+                </div>
+            </div>
+            <div class="row mx-auto">
+                <div class="load-more col-12 text-center">
+                    <button class="btn btn-sm btn-load-more">Load more...</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="footer-div">
+        <div id="logo">
+          <a href="#"><img class="header_img" src="./img/Logo-footer_icon.png" alt="logo" /></a>
+        </div>
+        <div id="email">
+            <h2>Email Us</h2>
+            <div class="footer-email">
+                <i class="far fa-envelope footer-envelope"></i>
+                <p> <a class="mail-link" href="mailto:info@speaktoimpact.com">hello@susieashfield.com</a></p>
+            </div>
+        </div>
+        <div id="follow-us">
+            <h2>Follow Us</h2>
+            <div class="footer-follow">
+               <a href="https://www.linkedin.com/in/susannahashfield/" target="_blank"><i class="fab fa-linkedin follow-icon"></i></a>
+                <a href="https://www.instagram.com/speak2impact/" target="_blank"><i class="fab fa-instagram follow-icon"></i></a>
+                <a href="https://www.tiktok.com/@smashfield89" target="_blank"><i class="fab fa-tiktok follow-icon"></i></a>
+            </div>
+        </div>
+    </div>
+    <hr style="background-color: #FCF7BE;margin-bottom: 0">
+    <footer>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-5 col-lg-4 pr-0 copyright-div">
+                <p class=""><span class="copyright-bigger-text">&copy; 2023 Speak2Impact Limited.</span><br>All rights reserved Registered in England | Company Reg.No.09470705</p>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-7 col-lg-8 pl-0 pr-0 text-right">
+                <ul>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li class="inline-grid-display"><a href="#">Terms of Service</a><span class="love-text"><a href="https://www.firstloop.se">Made with<b>&nbsp;❤️&nbsp;</b>by First Loop</a></span></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="modal fade downloads-dialog" id="downloads-modal" tabindex="-1" role="dialog" aria-labelledby="downloads-modal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            <div class="modal-body">
+              <div class="row downloads-modal-details">
+
+                <div class="col-12 col-sm-12 col-md-5 col-lg-4 downloads-dialog-img-div">
+                    <img class="downloads-dialog-img" src="img/promotional_book_img.png">
+                </div>
+                <div class="col-12 col-sm-12 col-md-7 col-lg-8 downloads-dialog-heading-div">
+                    <h3 class="downloads-dialog-heading">Download the 9 Secrets to Public Speaking Playbook</h3>
+                </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="form">
+                        <form class="downloads-form" id="downloads-form">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <label>Full Name</label>
+                                    <input type="text" maxlength="50" required>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <label>Email</label>
+                                    <input type="email" required>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <label>Phone</label>
+                                    <input type="tel" maxlength="14" required>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <label>Company</label>
+                                    <input type="text" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <label>Title</label>
+                                    <input type="text" maxlength="50" required>
+                                </div>
+    
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <label>Country</label>
+                                    <select required>
+                                        <option selected>Select</option>
+                                        <option value="Pakistan">Pakistan</option>
+                                    </select>
+                                </div>
+                            </div>
+                             <div class="row">
+                                <div class="col-12">
+                                    <h4 class="text-center">Terms & Conditions</h4>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1" style="text-align: left;">I agree to receive news, offers, and other promotional activities from Speak2Impact Limited.</label>
+                                      </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                        <label class="custom-control-label" for="customCheck2">I agree to the Privacy Policy and Terms of Service.</label>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 text-center mt-4">
+                                <button class="downloads-form-submit-btn" type='submit'><a class=''>DOWNLOAD</a></button>
+                            </div>
+                        </div>
+                            <!-- <button type="submit">Send</button> -->
+                        </form>
+                    </div>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="index.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#news").show();
+            $("#blog-button-1").on("click", function () {
+                $("#latest").show();
+                // $("#feature").hide();
+                $("#news").hide();
+                $("#download").hide();
+            });
+            $("#blog-button-2").on("click", function () {
+                // $("#feature").show();
+                $("#latest").hide();
+                $("#news").show();
+                $("#download").hide();
+            });
+            // $("#blog-button-3").on("click", function () {
+            //     $("#news").show();
+            //     $("#feature").hide();
+            //     $("#latest").hide();
+            //     $("#download").hide();
+            // });
+            $("#blog-button-4").on("click", function () {
+                $("#download").show();
+                // $("#feature").hide();
+                $("#latest").hide();
+                $("#news").hide();
+            });
+        });
+    </script>
+</body>
+
+</html>
